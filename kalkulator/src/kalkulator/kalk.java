@@ -19,7 +19,7 @@ public class kalk {
 
 	/**
 	 * Launch the application.
-	 * @param args
+	 * @param args kooasdasdasda
 	 */
 	public static void main(String[] args)  {
 		try {
@@ -187,14 +187,14 @@ public class kalk {
 				 {
 					number1 = Integer.parseInt(firstText.getText());
 					if(number1 == 0)
-						throw new ArithmeticException("Nie mozna dzieliæ przez 0");
+						throw new ArithmeticException("Nie mozna dzieli?przez 0");
 				}
 				
 				
 				try {
 					number2 = Integer.parseInt(Secondtext.getText());
 					if(number2 == 0)
-						throw new ArithmeticException("Nie mozna dzieliæ przez 0");
+						throw new ArithmeticException("Nie mozna dzieli?przez 0");
 				}
 					catch (Exception exc) 
 				{
